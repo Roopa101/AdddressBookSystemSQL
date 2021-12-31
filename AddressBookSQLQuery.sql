@@ -37,3 +37,7 @@ Update address_Book set Email = 'ganesh70@bridgelabz.com' where Firstname = 'Gan
 
 Delete From address_Book where Firstname = 'Sireesha'
 select * from address_Book
+
+
+Select City From address_Book Where Firstname = 'Roopa'
+Select State From address_Book Where Firstname = 'Ganesh'
