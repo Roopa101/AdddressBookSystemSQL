@@ -45,3 +45,5 @@ Select State From address_Book Where Firstname = 'Ganesh'
 
 Select COUNT (*) State From address_Book
 Select COUNT(*) City From address_Book
+
+Select * From address_Book Where City = 'Kalaburagi' Order By Firstname
