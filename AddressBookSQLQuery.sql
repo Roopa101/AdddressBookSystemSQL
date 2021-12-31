@@ -47,3 +47,14 @@ Select COUNT (*) State From address_Book
 Select COUNT(*) City From address_Book
 
 Select * From address_Book Where City = 'Kalaburagi' Order By Firstname
+
+
+Alter Table address_Book Add ContactType varchar(27);
+
+Update address_Book Set ContactType = 'Family' Where Firstname = 'Roopa';
+Update address_Book Set ContactType = 'Family' Where PhoneNumber = '8934567523';
+Update address_Book Set ContactType = 'Friends' Where Lastname = 'Vishwakarma';
+Update address_Book Set ContactType = 'Friends' Where Email = 'ganesh70@bridgelabz.com';
+Update address_Book Set ContactType = 'Profession' Where Firstname = 'NaveenChand';
+
+select * from address_Book
