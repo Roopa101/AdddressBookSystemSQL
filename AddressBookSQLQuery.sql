@@ -29,3 +29,7 @@ insert into address_Book(Firstname,Lastname,address,City,State,Zip,PhoneNumber,E
 ( 'Ganesh', 'Jamadar', 'kantekur', 'umerga', 'Maharashtra', '413606', '9038294056', 'prabhu999@bridgelabz.com' ),
 ( 'Sireesha', 'Vemulapalli', 'GandhiNagar', 'Kurnool', 'AndhraPradesh', '562134', '9876543210', 'siri9153@bridgelabz.com' ),
 ( 'NaveenChand', 'Moparthi', 'Chinaravuru', 'Tenali', 'AndhraPradesh', '568753', '8796054859', 'naveen799@bridgelabz.com' );
+
+
+Update address_Book set PhoneNumber = '9848032919' where Firstname = 'Roopa';
+Update address_Book set Email = 'ganesh70@bridgelabz.com' where Firstname = 'Ganesh';
